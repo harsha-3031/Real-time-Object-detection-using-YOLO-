@@ -1,0 +1,26 @@
+names:
+- aeroplane
+- apple
+- backpack
+- bicycle
+- bird
+- boat
+- book
+- bus
+- car
+- cat
+- cell phone
+- chair
+- dog
+- horse
+- knife
+- laptop
+- motorbike
+- person
+- sofa
+- traffic light
+- wine glass
+nc: 21
+test: C:\Users\N akhil yadav\OneDrive\Desktop\object\dataset\filtered\test\images
+train: C:\Users\N akhil yadav\OneDrive\Desktop\object\dataset\filtered\train\images
+val: C:\Users\N akhil yadav\OneDrive\Desktop\object\dataset\filtered\valid\images

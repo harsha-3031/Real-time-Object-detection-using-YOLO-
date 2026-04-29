@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>YOLO Tracking System</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+  <h1>🎥 YOLO Object Tracking & Counting</h1>
+
+  <div class="container">
+
+    <h3>Upload Video</h3>
+    <form id="uploadForm" enctype="multipart/form-data">
+      <input type="file" id="videoFile" name="video" accept="video/*" required>
+      <button type="submit">Upload & Analyze</button>
+    </form>
+
+    <hr>
+
+    <h3>Live Camera (10 Seconds)</h3>
+    <button id="recordBtn">Start Recording</button>
+
+    <p id="statusMsg"></p>
+
+  </div>
+
+  <div id="outputContainer" style="display:none;">
+    <h2>Processed Result</h2>
+    <video id="outputVideo" controls autoplay></video>
+    <div id="countContainer"></div>
+  </div>
+
+  <script src="{{ url_for('static', filename='script.js') }}"></script>
+
+</body>
+</html>
